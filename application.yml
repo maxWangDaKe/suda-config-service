@@ -12,3 +12,9 @@ spring:
   profiles: sit # 测试环境
   application:
     name: suda-config-service-sit
+    
+---
+spring:
+  profiles: uat # 测试环境
+  application:
+    name: suda-config-service-uat
